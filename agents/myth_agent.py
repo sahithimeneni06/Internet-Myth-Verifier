@@ -1,6 +1,5 @@
 from langchain_groq import ChatGroq
 from langchain_core.tools import tool
-from langchain_core.messages import HumanMessage
 from langchain.agents import create_agent
 from langchain_community.tools import DuckDuckGoSearchRun
 from dotenv import load_dotenv
